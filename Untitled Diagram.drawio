@@ -611,7 +611,7 @@
         <mxCell id="CAzmO_tl9PmfK4zKxWHL-1" value="&lt;div&gt;&amp;lt;&amp;lt;model&amp;gt;&amp;gt;&lt;/div&gt;&lt;div&gt;SOSDetails&lt;br&gt;&lt;/div&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeColor=#0F8B8D;fontColor=#143642;fillColor=#FAE5C7;" vertex="1" parent="1">
           <mxGeometry x="50" y="54" width="328" height="279" as="geometry" />
         </mxCell>
-        <mxCell id="CAzmO_tl9PmfK4zKxWHL-2" value="&lt;div&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;-&amp;nbsp; complaintType: String&lt;/font&gt;&lt;/div&gt;&lt;li&gt;&lt;font size=&quot;3&quot;&gt;&lt;code&gt;- complaintType: String&lt;/code&gt;&lt;br&gt;&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font size=&quot;3&quot;&gt;&lt;code&gt;- timeOfEvent: String&lt;/code&gt;&lt;br&gt;&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font size=&quot;3&quot;&gt;&lt;code&gt;- description: String&lt;/code&gt;&lt;br&gt;&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font size=&quot;3&quot;&gt;&lt;code&gt;- evidenceList: List&amp;lt;Evidence&amp;gt;&lt;/code&gt;&lt;br&gt;&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font size=&quot;3&quot;&gt;&lt;code&gt;- isLive: Boolean&lt;/code&gt;&lt;br&gt;&lt;/font&gt;&lt;/li&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontColor=#143642;" vertex="1" parent="CAzmO_tl9PmfK4zKxWHL-1">
+        <mxCell id="CAzmO_tl9PmfK4zKxWHL-2" value="&lt;div align=&quot;left&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;-&amp;nbsp; complaintType: String&lt;/font&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;li&gt;&lt;font size=&quot;3&quot;&gt;&lt;code&gt;- complaintType: String&lt;/code&gt;&lt;br&gt;&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font size=&quot;3&quot;&gt;&lt;code&gt;- timeOfEvent: String&lt;/code&gt;&lt;br&gt;&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font size=&quot;3&quot;&gt;&lt;code&gt;- description: String&lt;/code&gt;&lt;br&gt;&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font size=&quot;3&quot;&gt;&lt;code&gt;- evidenceList: List&amp;lt;Evidence&amp;gt;&lt;/code&gt;&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font size=&quot;3&quot;&gt;&lt;code&gt;&lt;/code&gt;&lt;code&gt;- isLive: Boolean&lt;/code&gt;&lt;br&gt;&lt;/font&gt;&lt;/li&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontColor=#143642;" vertex="1" parent="CAzmO_tl9PmfK4zKxWHL-1">
           <mxGeometry y="50" width="328" height="141" as="geometry" />
         </mxCell>
         <mxCell id="CAzmO_tl9PmfK4zKxWHL-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;fontColor=#143642;" vertex="1" parent="CAzmO_tl9PmfK4zKxWHL-1">
@@ -621,16 +621,16 @@
           <mxGeometry y="199" width="328" height="80" as="geometry" />
         </mxCell>
         <mxCell id="DUuV1GbvdwF28ruCMC9C-1" value="&lt;div&gt;&amp;lt;&amp;lt;model&amp;gt;&amp;gt;&lt;/div&gt;&lt;div&gt;Evidence&lt;br&gt;&lt;/div&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeColor=#0F8B8D;fontColor=#143642;fillColor=#FAE5C7;" vertex="1" parent="1">
-          <mxGeometry x="417" y="54" width="185" height="195" as="geometry" />
+          <mxGeometry x="492" y="64" width="183" height="195" as="geometry" />
         </mxCell>
         <mxCell id="DUuV1GbvdwF28ruCMC9C-2" value="&lt;li&gt;&lt;code&gt;- type: String&lt;/code&gt;&lt;/li&gt;&lt;li&gt;&lt;code&gt;- url: String&lt;/code&gt;&lt;/li&gt;&lt;li&gt;&lt;code&gt;- timestamp: String&lt;/code&gt;.&lt;/li&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontColor=#143642;" vertex="1" parent="DUuV1GbvdwF28ruCMC9C-1">
-          <mxGeometry y="50" width="185" height="77" as="geometry" />
+          <mxGeometry y="50" width="183" height="77" as="geometry" />
         </mxCell>
         <mxCell id="DUuV1GbvdwF28ruCMC9C-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;fontColor=#143642;" vertex="1" parent="DUuV1GbvdwF28ruCMC9C-1">
-          <mxGeometry y="127" width="185" height="8" as="geometry" />
+          <mxGeometry y="127" width="183" height="8" as="geometry" />
         </mxCell>
         <mxCell id="DUuV1GbvdwF28ruCMC9C-4" value="&lt;li&gt;&lt;code&gt;+ play()&lt;/code&gt;&lt;/li&gt;&lt;li&gt;&lt;code&gt;+ pause()&lt;/code&gt;&lt;/li&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontColor=#143642;" vertex="1" parent="DUuV1GbvdwF28ruCMC9C-1">
-          <mxGeometry y="135" width="185" height="60" as="geometry" />
+          <mxGeometry y="135" width="183" height="60" as="geometry" />
         </mxCell>
         <mxCell id="DUuV1GbvdwF28ruCMC9C-5" value="&lt;div&gt;&amp;lt;&amp;lt;model&amp;gt;&amp;gt;&lt;/div&gt;&lt;div&gt; LiveStream&lt;/div&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeColor=#0F8B8D;fontColor=#143642;fillColor=#FAE5C7;" vertex="1" parent="1">
           <mxGeometry x="53" y="345" width="372" height="202" as="geometry" />
@@ -645,16 +645,16 @@
           <mxGeometry y="127" width="372" height="75" as="geometry" />
         </mxCell>
         <mxCell id="DUuV1GbvdwF28ruCMC9C-9" value="&lt;div&gt;&amp;lt;&amp;lt;view&amp;gt;&amp;gt;&lt;/div&gt;&lt;div&gt; SOSDetailsViewUI&lt;/div&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeColor=#0F8B8D;fontColor=#143642;fillColor=#FAE5C7;" vertex="1" parent="1">
-          <mxGeometry x="456" y="337.5" width="342" height="217" as="geometry" />
+          <mxGeometry x="456" y="337.5" width="380" height="217" as="geometry" />
         </mxCell>
         <mxCell id="DUuV1GbvdwF28ruCMC9C-10" value="&lt;li&gt;&lt;code&gt;- mapView: MapComponent&lt;/code&gt;.&lt;/li&gt;&lt;li&gt;&lt;code&gt;- detailsPane: SOSDetailsPanel&lt;/code&gt;&lt;br&gt;&lt;/li&gt;&lt;li&gt;&lt;code&gt;- evidenceView: EvidenceListView&lt;/code&gt;&lt;br&gt;&lt;/li&gt;&lt;li&gt;&lt;code&gt;- liveStreamView: LiveStreamPanel&lt;/code&gt;&lt;br&gt;&lt;/li&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontColor=#143642;" vertex="1" parent="DUuV1GbvdwF28ruCMC9C-9">
-          <mxGeometry y="50" width="342" height="89" as="geometry" />
+          <mxGeometry y="50" width="380" height="89" as="geometry" />
         </mxCell>
         <mxCell id="DUuV1GbvdwF28ruCMC9C-11" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;fontColor=#143642;" vertex="1" parent="DUuV1GbvdwF28ruCMC9C-9">
-          <mxGeometry y="139" width="342" height="8" as="geometry" />
+          <mxGeometry y="139" width="380" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="DUuV1GbvdwF28ruCMC9C-12" value="&lt;li&gt;&lt;code&gt;renderSOSDetails(details: SOSDetails)&lt;/code&gt;&lt;br&gt;&lt;/li&gt;&lt;li&gt;&lt;code&gt;renderEvidence(evidenceList: List&amp;lt;Evidence&amp;gt;)&lt;/code&gt;&lt;br&gt;&lt;/li&gt;&lt;li&gt;&lt;code&gt;renderLiveStream(stream: LiveStream)&lt;/code&gt;&lt;br&gt;&lt;/li&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontColor=#143642;" vertex="1" parent="DUuV1GbvdwF28ruCMC9C-9">
-          <mxGeometry y="147" width="342" height="70" as="geometry" />
+        <mxCell id="DUuV1GbvdwF28ruCMC9C-12" value="&lt;li&gt;&lt;code&gt;+ renderSOSDetails(details: SOSDetails)&lt;/code&gt;&lt;br&gt;&lt;/li&gt;&lt;li&gt;&lt;code&gt;+ renderEvidence(evidenceList: List&amp;lt;Evidence&amp;gt;)&lt;/code&gt;&lt;br&gt;&lt;/li&gt;&lt;li&gt;&lt;code&gt;+ renderLiveStream(stream: LiveStream)&lt;/code&gt;&lt;br&gt;&lt;/li&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontColor=#143642;" vertex="1" parent="DUuV1GbvdwF28ruCMC9C-9">
+          <mxGeometry y="147" width="380" height="70" as="geometry" />
         </mxCell>
         <mxCell id="DUuV1GbvdwF28ruCMC9C-13" value="&lt;div&gt;&amp;lt;&amp;lt;view&amp;gt;&amp;gt;&lt;/div&gt;&lt;div&gt;MapComponentUI&lt;/div&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeColor=#0F8B8D;fontColor=#143642;fillColor=#FAE5C7;" vertex="1" parent="1">
           <mxGeometry x="50" y="572" width="289" height="159" as="geometry" />
@@ -681,19 +681,19 @@
           <mxGeometry y="98" width="289" height="46" as="geometry" />
         </mxCell>
         <mxCell id="DUuV1GbvdwF28ruCMC9C-22" value="&lt;div&gt;&amp;lt;&amp;lt;controller&amp;gt;&amp;gt;&lt;/div&gt;&lt;div&gt;SOSDetailsController&lt;/div&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeColor=#0F8B8D;fontColor=#143642;fillColor=#FAE5C7;" vertex="1" parent="1">
-          <mxGeometry x="53" y="747" width="356" height="199" as="geometry" />
+          <mxGeometry x="53" y="747" width="399" height="211" as="geometry" />
         </mxCell>
         <mxCell id="DUuV1GbvdwF28ruCMC9C-23" value="&lt;li&gt;&lt;code&gt;- sosService: SOSService&lt;/code&gt;&lt;/li&gt;&lt;li&gt;&lt;code&gt;- currentSOS: SOSDetails&lt;/code&gt;&lt;/li&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontColor=#143642;" vertex="1" parent="DUuV1GbvdwF28ruCMC9C-22">
-          <mxGeometry y="50" width="356" height="69" as="geometry" />
+          <mxGeometry y="50" width="399" height="69" as="geometry" />
         </mxCell>
         <mxCell id="DUuV1GbvdwF28ruCMC9C-24" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;fontColor=#143642;" vertex="1" parent="DUuV1GbvdwF28ruCMC9C-22">
-          <mxGeometry y="119" width="356" height="8" as="geometry" />
+          <mxGeometry y="119" width="399" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="DUuV1GbvdwF28ruCMC9C-25" value="&lt;li&gt;&lt;code&gt;loadSOSDetails(sosId: String)&lt;/code&gt;&lt;br&gt;&lt;/li&gt;&lt;li&gt;&lt;code&gt;updateSOSStatus(sosId: String, status: String)&lt;/code&gt;&lt;br&gt;&lt;/li&gt;&lt;li&gt;&lt;code&gt;fetchLiveStream(sosId: String)&lt;/code&gt;&lt;br&gt;&lt;/li&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontColor=#143642;" vertex="1" parent="DUuV1GbvdwF28ruCMC9C-22">
-          <mxGeometry y="127" width="356" height="72" as="geometry" />
+        <mxCell id="DUuV1GbvdwF28ruCMC9C-25" value="&lt;li&gt;&lt;code&gt;+ loadSOSDetails(sosId: String)&lt;/code&gt;&lt;code&gt;&lt;/code&gt;&lt;/li&gt;&lt;li&gt;&lt;code&gt;+ updateSOSStatus(sosId: String, status: String)&lt;/code&gt;&lt;code&gt;&lt;/code&gt;&lt;/li&gt;&lt;li&gt;&lt;code&gt;+ fetchLiveStream(sosId: String)&lt;/code&gt;&lt;br&gt;&lt;/li&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontColor=#143642;" vertex="1" parent="DUuV1GbvdwF28ruCMC9C-22">
+          <mxGeometry y="127" width="399" height="84" as="geometry" />
         </mxCell>
         <mxCell id="DUuV1GbvdwF28ruCMC9C-26" value="&lt;div&gt;&amp;lt;&amp;lt;controller&amp;gt;&amp;gt;&lt;/div&gt;&lt;div&gt; EvidenceController&lt;/div&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeColor=#0F8B8D;fontColor=#143642;fillColor=#FAE5C7;" vertex="1" parent="1">
-          <mxGeometry x="92" y="983" width="286" height="145" as="geometry" />
+          <mxGeometry x="507" y="910" width="286" height="145" as="geometry" />
         </mxCell>
         <mxCell id="DUuV1GbvdwF28ruCMC9C-27" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;- evidenceService: EvidenceService&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontColor=#143642;" vertex="1" parent="DUuV1GbvdwF28ruCMC9C-26">
           <mxGeometry y="50" width="286" height="37" as="geometry" />
@@ -705,7 +705,7 @@
           <mxGeometry y="95" width="286" height="50" as="geometry" />
         </mxCell>
         <mxCell id="DUuV1GbvdwF28ruCMC9C-30" value="&lt;div&gt;&amp;lt;&amp;lt;view&amp;gt;&amp;gt;&lt;/div&gt;&lt;div&gt;EvidenceListViewUI&lt;/div&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeColor=#0F8B8D;fontColor=#143642;fillColor=#FAE5C7;" vertex="1" parent="1">
-          <mxGeometry x="449" y="747" width="295" height="139" as="geometry" />
+          <mxGeometry x="498" y="744" width="295" height="139" as="geometry" />
         </mxCell>
         <mxCell id="DUuV1GbvdwF28ruCMC9C-31" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;- evidenceItems: List&amp;lt;EvidenceItemView&amp;gt;&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontColor=#143642;" vertex="1" parent="DUuV1GbvdwF28ruCMC9C-30">
           <mxGeometry y="50" width="295" height="39" as="geometry" />
