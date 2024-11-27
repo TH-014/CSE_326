@@ -1756,7 +1756,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="F5gQSEd8v3K1E1oWBw1h-1" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;17. Settings&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="F5gQSEd8v3K1E1oWBw1h-1" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;17. Settings&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="42" y="79" width="125" height="30" as="geometry" />
         </mxCell>
       </root>
